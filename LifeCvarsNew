@@ -63,15 +63,14 @@
 		"3":{"improved":"1","desc":"per2","cmd":"snd_noextraupdate","name":"Disable Sound Update","default":"0"},
 		"4":{"improved":"1","desc":"per3","cmd":"cl_forcepreload","name":"Client-Side Preloading","default":"0"},
 		"5":{"improved":"1","desc":"per4","cmd":"sv_forcepreload","name":"Server-Side Preloading","default":"0"},
-		"6":{"improved":"1","warn":"warning7","desc":"per5","cmd":"mem_force_flush","name":"Memory Cache Cleanup","default":"0"},
-		"7":{"improved":"-1","desc":"per6","cmd":"r_fastzreject","name":"Z-Setting Algorithm","default":"0"},
-		"8":{"improved":"1","desc":"per7","cmd":"dsp_slow_cpu","name":"DSP Sound Effects","default":"0"},
-		"9":{"improved":"0","desc":"per8","cmd":"mat_bumpmap","name":"BumpMap","default":"1"},
-		"10":{"improved":"1","warn":"warning7","desc":"per9","cmd":"mat_fastnobump","name":"Fast No Bump Mapping","default":"0"},
-		"11":{"improved":"0","desc":"per10","cmd":"mat_filterlightmaps","name":"Blocky Lighting","default":"1"},
-		"12":{"improved":"0","desc":"per11","cmd":"mat_filtertextures","name":"Un-Smoothed Textures","default":"1"},
-		"13":{"improved":"0","desc":"per12","cmd":"mat_mipmaptextures","name":"Harshed Textures","default":"1"},
-		"14":{"improved":"1","warn":"warning7","desc":"per13","cmd":"mat_showlowresimage","name":"Low-Res Textures","default":"0"}
+		"6":{"improved":"-1","desc":"per5","cmd":"r_fastzreject","name":"Z-Setting Algorithm","default":"0"},
+		"7":{"improved":"1","desc":"per6","cmd":"dsp_slow_cpu","name":"DSP Sound Effects","default":"0"},
+		"8":{"improved":"0","desc":"per7","cmd":"mat_bumpmap","name":"BumpMap","default":"1"},
+		"9":{"improved":"1","warn":"warning7","desc":"per8","cmd":"mat_fastnobump","name":"Fast No Bump Mapping","default":"0"},
+		"10":{"improved":"0","desc":"per9","cmd":"mat_filterlightmaps","name":"Blocky Lighting","default":"1"},
+		"11":{"improved":"0","desc":"per10","cmd":"mat_filtertextures","name":"Un-Smoothed Textures","default":"1"},
+		"12":{"improved":"0","desc":"per11","cmd":"mat_mipmaptextures","name":"Harshed Textures","default":"1"},
+		"13":{"improved":"1","warn":"warning7","desc":"per12","cmd":"mat_showlowresimage","name":"Low-Res Textures","default":"0"}
 	},
 	
 	"7":
