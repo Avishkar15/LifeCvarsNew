@@ -1,0 +1,94 @@
+THIS WILL KEEP GETTING UPDATES FROM TIME TO TIME, THIS IS NOT THE FULL RELEASE YET!
+
+Do you have any more cvars that might make your GMod better? Post them on the mod page!
+
+== DirectX == (for mat_dxlevel command!, not yet implented)
+More information: https://developer.valvesoftware.com/wiki/DirectX_Versions
+
+DirectX 6:            +mat_dxlevel 60
+DirectX 7:            +mat_dxlevel 70
+DirectX 8:            +mat_dxlevel 80
+DirectX 8.1:          +mat_dxlevel 81
+DirectX 9:            +mat_dxlevel 90   (Default option, if you want to roll back the changes)
+DirectX 9(Plus):      +mat_dxlevel 95   (DX9 with Shader Model 3)
+DirectX 9(Extended):  +mat_dxlevel 98   (Adds GPU Particle Physics)
+DirectX 10:           +mat_dxlevel 101  <==(For graphic cards that don't support DX11 try this one)
+DirectX 11:           +mat_dxlevel 110
+DirectX 11.1:         +mat_dxlevel 111  (For Windows 7 Service Pack 1):
+DirectX 11.2:         +mat_dxlevel 112  (For Windows 8.1)
+
+== Textures ==
+
+mat_parallaxmap 0-1  == Enables Parallax Mapping which can improve visual quality. // May severely impact perfomance!
+mat_compressedtextures 0-1  == Disables compressed textures to improve texture appearence. // May severely impact perfomance!
+mat_wateroverlaysize 0-9999  == Increases quality of water.
+mat_envmapsize 0-9999  == Raises the allowable physical dimensions of a texture.
+mat_envmaptgasize 0-9999  == Raises the allow physical dimensions of a sprayed texture.
+
+== Prefixes ==
+
+mat_specular 0-1  == a HotFix for shiny objects on the map.(Turns off/on specular lightning.)
+
+== Shadows / Lightning ==
+
+cl_drawownshadow 0-1  == Draws own shadow in first person mode.
+r_projectedtexture_filter 0-2  == Smooths the shadows.
+r_shadowmaxrendered 0-9999  == Increases quality of shadows
+r_flashlightdepthres 0-512-1024-4096-8192  == Texture resolution of the shadows drawn when flashlight hits an object.
+r_worldlights 0-4  == Number of world lights to use per vertex.
+r_maxdlights 0-9999  == Maximum number of dynamic lights visible on the screen.
+
+---- These don't work for some reason ;c
+r_cheapwaterstart  == Start of the CheapWater rendering (all before this range is expensive waterrendering).
+r_cheapwaterend  == Range beyond which water effects are reduced.
+---------------------------------------------------------------------
+
+== Distance ==
+
+r_lod 0-5  == Rate at which level of detail is stripped from objects as they recede away from the player. // May impact perfomance!
+lod_TransitionDist 0-9999  == Range at which detail props are shown.
+cl_detailfade 0-9999  == Range at which detail props fade into view.
+r_propsmaxdist 0-9999  == Maximum visible distance.
+cl_detaildist 0-9999  == The range at which detail props are shown.(e.g. grass).
+
+== Models / Decals ==
+
+mp_usehwmmodels 0-1  == High quality faces [TF2 Models Only]
+mp_usehwmvcds 0-1  == Uses high quality facial animations [TF2 Models Only]
+cl_ragdoll_collide 0-1  == Prevents characters from merging into each other due to ragdoll effects. // May impact perfomance!
+r_maxmodeldecal 0-9999  == Maximum number of decals which can be drawn on a model.
+mp_decals 0-9999  == Maximum amount of decals visible at one time.
+r_decals 0-9999  == Maximum amount of decals possible at any one time.
+
+== Other ==
+
+jpeg_quality 0-100  == Specifies the default quality percentage for screenshots.
+cl_burninggibs 0-1  == Will cause the gibs from players who are killed while on fire to display fire effects.
+mat_motion_blur_forward_enabled 0-1  == Adds movement motion blur.
+mat_motion_blur_strength 0-10  == Increases the strength of the movement motion blur.
+mat_postprocess_y 0-10  == Improves post-processing effects by X.
+mat_postprocess_x 0-10  == Improves post-processing effects by Y.
+
+== Perfomance == 
+
+ai_expression_optimization 0-1  == Disables NPC expressions when you can't see them, potentially improving performance.
+sv_robust_explosions 0-1  == Explosions will be less spectacular, but this may improve performance.
+snd_noextraupdate 0-1  == Disables unnecessary updating of sound files which improves perfomance.
+cl_forcepreload 0-1  == Forces all information to preload, reducing loading pauses and stuttering by not loading information on the fly.
+sv_forcepreload 0-1  == Forces server-side preloading, reducing loading pauses and stuttering by not loading information on the fly.
+r_fastzreject 0-1  == Activates a fast z-setting algorithm which takes advantage of hardware fast z reject for improved performance. (if it is on -1 it auto detects of how it should be).
+
+== Cheats (needs to have sv_cheats to be set on 1) ==
+
+r_rootlod 0-1  == Gives ultra level of detail of distance. // May impact perfomance!
+mat_picmip -10  ==  gives Ultra quality on textures. // May impact perfomance!
+mat_fullbright 0-1  == All objects will up brightly lit up.
+cl_maxrenderable_dist 0-9999  == Maximum distance from the camera at which things will be rendered.
+r_eyeglintlodpixels 0-9999  == Allows eyes to be rendered at full quality across the map.
+r_avglight 0-9999  == Puts more lighting on objects.
+
+== Multi-Thread == 
+
+snd_mix_async 0-1  == This command will allow multi-core CPUs to run most of the sound engine in parallel with the renderer, which can improve performance and reduce stuttering.
+
+more coming s00n!
