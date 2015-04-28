@@ -11,6 +11,8 @@ There are three reasons for this:
 2. it means that we can't change the list without a commit message being stored, and you can look through every revision of the file to know that we didn't do something bad.
 3. it means that we don't have to update the workshop addon each time we want to tweak this list.
 
+FAQ
+=========
 
 Q.: What happens if I am offline? Will Life still work?
 
