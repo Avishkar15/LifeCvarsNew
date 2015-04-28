@@ -76,22 +76,24 @@
 	
 	"7":
 	{
-		"1":{"slider":{"1":0,"2":9999},"desc":"h1","cmd":"r_flashlightfov","name":"Flashlight FOV","default":"60"},
-           	"2":{"slider":{"1":0,"2":9999},"desc":"h2","cmd":"r_flashlightnear","name":"Flashlight Cast Begin","default":"4"},
-              	"3":{"slider":{"1":0,"2":9999},"desc":"h3","cmd":"r_flashlightfar","name":"Flashlight Cast End","default":"750"},
-              	"4":{"slider":{"1":0,"2":9999},"desc":"h4","cmd":"r_flashlightconstant","name":"Flashlight Constant","default":"0"}
- 	},
-	
-	"8":
-	{
 		"1":{"improved":"1","desc":"f0","cmd":"stopsound","name":"Reset All Sounds","default":"0"},
-		"3":{"improved":"1","desc":"f1","cmd":"mat_monitorgamma_tv_enabled","name":"Monitor Gamma","default":"0"},
-		"4":{"improved":"0","desc":"f2","cmd":"cl_drawhud","name":"Hide HUD","default":"1"},
-		"5":{"improved":"1","desc":"f3","cmd":"mat_motion_blur_forward_enabled","name":"Movement Motion Blur","default":"0"},
-		"6":{"slider":{"1":0,"2":10},"desc":"f4","cmd":"mat_motion_blur_strength","name":"Motion Blur Strength","default":"1"},
-		"7":{"slider":{"1":0,"2":100},"desc":"f5","cmd":"jpeg_quality","name":"Screenshot Quality","default":"90"},
-		"8":{"slider":{"1":0,"2":10},"desc":"f6","cmd":"mat_postprocess_y","name":"Improves Post-Process by Y","default":"1"},
-		"9":{"slider":{"1":0,"2":10},"desc":"f7","cmd":"mat_postprocess_x","name":"Improves Post-Process by X","default":"4"},
-	        "10":{"slider":{"1":0,"2":4},"desc":"f8","cmd":"net_graph","name":"Net Graph","default":"0"}
+		"2":{"improved":"1","desc":"f1","cmd":"mat_monitorgamma_tv_enabled","name":"Monitor Gamma","default":"0"},
+		"3":{"improved":"0","desc":"f2","cmd":"cl_drawhud","name":"Hide HUD","default":"1"},
+		"4":{"slider":{"1":0,"2":100},"desc":"f3","cmd":"jpeg_quality","name":"Screenshot Quality","default":"90"},
+		"5":{"slider":{"1":0,"2":8},"desc":"f4","cmd":"mat_postprocess_y","name":"Improves Post-Process by Y","default":"1"},
+		"6":{"slider":{"1":0,"2":8},"desc":"f5","cmd":"mat_postprocess_x","name":"Improves Post-Process by X","default":"4"},
+		"7":{"improved":"1","desc":"f6","cmd":"r_flashlightdrawfrustum","name":"Flashlight Draw Frustum","default":"0"},
+		"8":{"slider":{"1":0,"2":9999},"warn":"warning7","desc":"f7","cmd":"r_flashlightfov","name":"Flashlight FOV","default":"60"},
+           	"9":{"slider":{"1":0,"2":9999},"warn":"warning7","desc":"f8","cmd":"r_flashlightnear","name":"Flashlight Cast Begin","default":"4"},
+              	"10":{"slider":{"1":0,"2":9999},"warn":"warning7","desc":"f9","cmd":"r_flashlightfar","name":"Flashlight Cast End","default":"750"},
+              	"11":{"slider":{"1":0,"2":9999},"warn":"warning7","desc":"f10","cmd":"r_flashlightconstant","name":"Flashlight Constant","default":"0"},
+		"12":{"improved":"1","desc":"f11","cmd":"mat_motion_blur_forward_enabled","name":"Movement Motion Blur","default":"0"},
+		"13":{"slider":{"1":0,"2":9999},"desc":"f12","cmd":"mat_motion_blur_strength","name":"Motion Blur Strength","default":"1"},
+		"14":{"slider":{"1":0,"2":9999},"desc":"f13","cmd":"mat_motion_blur_percent_of_screen_max","name":"Motion Blur Max Percent Screen","default":"4"},
+		"15":{"slider":{"1":0,"2":9999},"desc":"f14","cmd":"mat_motion_blur_rotation_intensity","name":"Motion Blur Rotation Intensity","default":"1"},
+		"16":{"slider":{"1":0,"2":9999},"desc":"f15","cmd":"mat_motion_blur_falling_intensity","name":"Motion Blur Falling Intensity","default":"1"},
+		"17":{"slider":{"1":0,"2":9999},"desc":"f16","cmd":"mat_motion_blur_falling_max","name":"Motion Blur Falling Max Duration","default":"20"},
+		"18":{"slider":{"1":0,"2":9999},"desc":"f17","cmd":"mat_motion_blur_falling_min","name":"Motion Blur Falling Min Duration","default":"10"}
+       
 	}
 }
