@@ -1,0 +1,97 @@
+{ 
+	"1":
+	{
+		"1":{"improved":"-10","warn":"warning7","desc":"a0","cmd":"mat_picmip","name":"Pic-Mip","default":"-1"},
+	        "2":{"improved":"1","warn":"warning2","desc":"a1","cmd":"mat_parallaxmap","name":"Parallax Mapping","default":"0"},
+		"3":{"improved":"0","warn":"warning5","desc":"a2","cmd":"mat_compressedtextures","name":"Uncompressed Textures","default":"1"},
+		"4":{"improved":"0","warn":"warning6","desc":"a3","cmd":"mat_use_compressed_hdr_textures","name":"Uncompressed HDR Textures","default":"1"},
+		"5":{"slider":{"1":0,"2":9999},"desc":"a4","cmd":"mat_wateroverlaysize","name":"Water Overlay Scale","default":"256"},
+		"6":{"slider":{"1":0,"2":9999},"desc":"a5","cmd":"mat_envmapsize","name":"Environment Map Size","default":"128"},
+		"7":{"slider":{"1":0,"2":9999},"desc":"a6","cmd":"mat_envmaptgasize","name":"Spray Map Size","default":"32"}
+	},
+	
+	"2":
+	{
+                "1":{"improved":"0","warn":"warning4","desc":"b0","cmd":"mat_specular","name":"Shiny objects HotFix","default":"1"},
+                "2":{"improved":"1","desc":"b1","cmd":"cl_drawownshadow","name":"Draw own shadow","default":"0"},
+                "3":{"improved":"0.2","desc":"b2","cmd":"r_projectedtexture_filter","name":"Projected Texture Filter","default":"1"},
+		"4":{"slider":{"1":0,"2":9999},"desc":"b3","cmd":"r_shadowmaxrendered","name":"Max rendered shadows","default":"32"},
+		"5":{"warn":"warning5","slider":{"1":1,"2":8192},"desc":"b4","cmd":"r_flashlightdepthres","name":"Shadow resolution","default":"1024"},
+		"6":{"slider":{"1":0,"2":9999},"desc":"b5","cmd":"r_worldlights","name":"World Lights number","default":"4"},
+		"7":{"slider":{"1":0,"2":9999},"desc":"b6","cmd":"r_maxdlights","name":"Dynamic Lights number","default":"32"},
+		"8":{"slider":{"1":0,"2":9999},"warn":"warning7","desc":"b7","cmd":"r_avglight","name":"Object Lightning","default":"1"}
+	},
+	
+	"3":
+	{
+		"1":{"improved":"-8","warn":"warning7","desc":"c0","cmd":"r_lod","name":"Disable LOD (Level Of Detail)","default":"-1"},
+		"2":{"improved":"-10","warn":"warning7","desc":"c1","cmd":"r_rootlod","name":"Root-LOD","default":"0"},
+		"3":{"slider":{"1":0,"2":9999},"desc":"c2","cmd":"lod_transitiondist","name":"LOD Transition Distance","default":"800"},
+		"4":{"slider":{"1":0,"2":9999},"desc":"c3","cmd":"cl_detailfade","name":"Detail-Fade distance","default":"400"},
+		"5":{"slider":{"1":0,"2":9999},"desc":"c4","cmd":"r_propsmaxdist","name":"Visible Prop Distance","default":"1200"},
+		"6":{"slider":{"1":0,"2":9999},"desc":"c5","cmd":"cl_detaildist","name":"Visible Prop Distance","default":"1200"},
+		"7":{"slider":{"1":0,"2":9999},"warn":"warning7","desc":"c6","cmd":"cl_maxrenderable_dist","name":"Render Distance","default":"3000"}
+	},
+
+	"4":
+	{
+		"1":{"improved":"1","desc":"d0","cmd":"mp_usehwmmodels","name":"High-poly models","default":"0"},
+		"2":{"improved":"1","desc":"d1","cmd":"mp_usehwmvcds","name":"Improved Facial Animations","default":"0"},
+		"3":{"improved":"1","desc":"d2","cmd":"cl_burninggibs","name":"Player/NPC Burning Gibs","default":"0"},
+		"4":{"improved":"1","desc":"d3","cmd":"cl_ragdoll_collide","name":"Ragdoll Collide","default":"0"},
+		"5":{"slider":{"1":0,"2":9999},"warn":"warning7","desc":"d4","cmd":"r_eyeglintlodpixels","name":"NPC/Ragdoll Eye Quality Distance","default":"20"},
+		"6":{"slider":{"1":0,"2":9999},"desc":"d5","cmd":"r_maxmodeldecal","name":"Model Decals","default":"50"},
+		"7":{"slider":{"1":0,"2":9999},"desc":"d6","cmd":"mp_decals","name":"Visual Decals","default":"200"},
+		"8":{"slider":{"1":0,"2":9999},"desc":"d7","cmd":"r_decals","name":"World Decals","default":"2048"}
+	},
+	
+	"5":
+	{
+		"1":{"improved":"1","desc":"thr0","cmd":"r_threaded_client_shadow_manager","name":"Client Shadow Manager Thread","default":"0"},
+		"2":{"improved":"1","desc":"thr1","cmd":"r_threaded_renderables","name":"Render System Thread","default":"0"},
+		"3":{"improved":"1","desc":"thr2","cmd":"r_queued_decals","name":"Decal Rendering Thread","default":"0"},
+		"4":{"improved":"1","desc":"thr3","cmd":"cl_threaded_bone_setup","name":"Bone Setup Thread","default":"0"},
+		"5":{"improved":"1","desc":"thr4","cmd":"r_queued_post_processing","name":"Post-Processing Thread","default":"0"},
+		"6":{"improved":"1","desc":"thr5","cmd":"cl_threaded_client_leaf_system","name":"Client Leaf System Thread","default":"0"},
+		"7":{"improved":"1","desc":"thr6","cmd":"snd_mix_async","name":"Parallel Sound Engine","default":"0"}
+	},
+	
+	"6":
+        {
+		"1":{"improved":"1","desc":"per0","cmd":"ai_expression_optimization","name":"AI Expressions Optimization","default":"0"},
+		"2":{"improved":"0","desc":"per1","cmd":"sv_robust_explosions","name":"Explosion Optimization","default":"1"},
+		"3":{"improved":"1","desc":"per2","cmd":"snd_noextraupdate","name":"Disable Sound Update","default":"0"},
+		"4":{"improved":"1","desc":"per3","cmd":"cl_forcepreload","name":"Client-Side Preloading","default":"0"},
+		"5":{"improved":"1","desc":"per4","cmd":"sv_forcepreload","name":"Server-Side Preloading","default":"0"},
+		"6":{"improved":"1","warn":"warning7","desc":"per5","cmd":"mem_force_flush","name":"Memory Cache Cleanup","default":"0"},
+		"7":{"improved":"-1","desc":"per6","cmd":"r_fastzreject","name":"Z-Setting Algorithm","default":"0"},
+		"8":{"improved":"1","desc":"per7","cmd":"dsp_slow_cpu","name":"DSP Sound Effects","default":"0"},
+		"9":{"improved":"0","desc":"per8","cmd":"mat_bumpmap","name":"BumpMap","default":"1"},
+		"10":{"improved":"1","warn":"warning7","desc":"per9","cmd":"mat_fastnobump","name":"Fast No Bump Mapping","default":"0"},
+		"11":{"improved":"0","desc":"per10","cmd":"mat_filterlightmaps","name":"Blocky Lighting","default":"1"},
+		"12":{"improved":"0","desc":"per11","cmd":"mat_filtertextures","name":"Un-Smoothed Textures","default":"1"},
+		"13":{"improved":"0","desc":"per12","cmd":"mat_mipmaptextures","name":"Harshed Textures","default":"1"},
+		"14":{"improved":"1","warn":"warning7","desc":"per13","cmd":"mat_showlowresimage","name":"Low-Res Textures","default":"0"}
+	},
+	
+	"7":
+	{
+		"1":{"slider":{"1":0,"2":9999},"desc":"h1","cmd":"r_flashlightfov","name":"Flashlight FOV","default":"60"},
+           	"2":{"slider":{"1":0,"2":9999},"desc":"h2","cmd":"r_flashlightnear","name":"Flashlight Cast Begin","default":"4"},
+              	"3":{"slider":{"1":0,"2":9999},"desc":"h3","cmd":"r_flashlightfar","name":"Flashlight Cast End","default":"750"},
+              	"4":{"slider":{"1":0,"2":9999},"desc":"h4","cmd":"r_flashlightconstant","name":"Flashlight Constant","default":"0"}
+ 	},
+	
+	"8":
+	{
+		"1":{"improved":"1","desc":"f0","cmd":"stopsound","name":"Reset All Sounds","default":"0"},
+		"3":{"improved":"1","desc":"f1","cmd":"mat_monitorgamma_tv_enabled","name":"Monitor Gamma","default":"0"},
+		"4":{"improved":"0","desc":"f2","cmd":"cl_drawhud","name":"Hide HUD","default":"1"},
+		"5":{"improved":"1","desc":"f3","cmd":"mat_motion_blur_forward_enabled","name":"Movement Motion Blur","default":"0"},
+		"6":{"slider":{"1":0,"2":10},"desc":"f4","cmd":"mat_motion_blur_strength","name":"Motion Blur Strength","default":"1"},
+		"7":{"slider":{"1":0,"2":100},"desc":"f5","cmd":"jpeg_quality","name":"Screenshot Quality","default":"90"},
+		"8":{"slider":{"1":0,"2":10},"desc":"f6","cmd":"mat_postprocess_y","name":"Improves Post-Process by Y","default":"1"},
+		"9":{"slider":{"1":0,"2":10},"desc":"f7","cmd":"mat_postprocess_x","name":"Improves Post-Process by X","default":"4"},
+	        "10":{"slider":{"1":0,"2":4},"desc":"f8","cmd":"net_graph","name":"Net Graph","default":"0"}
+	}
+}
