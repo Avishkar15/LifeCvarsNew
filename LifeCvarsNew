@@ -92,7 +92,7 @@
 		"15":{"slider":{"1":0,"2":9999},"desc":"f14","cmd":"mat_motion_blur_rotation_intensity","name":"Motion Blur Rotation Intensity","default":"1"},
 		"16":{"slider":{"1":0,"2":9999},"desc":"f15","cmd":"mat_motion_blur_falling_intensity","name":"Motion Blur Falling Intensity","default":"1"},
 		"17":{"slider":{"1":0,"2":9999},"desc":"f16","cmd":"mat_motion_blur_falling_max","name":"Motion Blur Falling Max Duration","default":"20"},
-		"18":{"slider":{"1":0,"2":9999},"desc":"f17","cmd":"mat_motion_blur_falling_min","name":"Motion Blur Falling Min Duration","default":"10"}
+		"18":{"slider":{"0.1":0,"2":9999},"desc":"f17","cmd":"mat_motion_blur_falling_min","name":"Motion Blur Falling Min Duration","default":"10"}
        
 	}
 }
